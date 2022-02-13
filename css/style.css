@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap');
+
+*{
+  text-decoration: none;
+  font-family: 'Ubuntu', sans-serif;
+  list-style: none;
+}
+
+
+h1{
+  margin-top: 50px;
+  text-align: center;
+  color: #fff;
+}
+
+.buttons{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.btn{
+  color: #fff;
+  background-color: blue;
+  padding: 10px;
+  margin: 50px;
+  border: 0;
+  border-radius: 0.5em;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+
+
+#agregar-palabra{
+  font-size: 20px;
+  justify-content: center;
+}
+#iniciar-juego{
+  text-decoration: none;
+  margin-left: 100px;
+  padding-left: 2%;
+  padding-right: 2.2%;
+  font-weight: bold;
+  justify-content: center;
+}
+
+.text-input {
+  border-radius: 0.5em;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  display: block;
+  padding: 0.5em;
+  width: 40%;
+  height: 40px;
+  margin-left: auto;
+  margin-top: 150px;
+  margin-right: auto;
+  font-weight: bold;
+  outline: 0;
+}
+
+
+li{
+  margin-left: 41%;
+  margin-right: 40%;
+  font-family: Inter;
+  font-size: 32px;
+  letter-spacing: 0em;
+  font-weight: bold;
+}
+
+
+
+.inicio button{
+  border: 0;
+  color: white;
+  font-weight: bold;
+  background-color: blue;
+  padding: 10px;
+  margin-top: 1%;
+  margin-left: 4%;
+  border-radius: 0.5em;
+  font-size: 15px;
+  cursor: pointer;
+}
+.inicio a{
+  color: #fff;
+  font-size: 15px;
+}
+
+.inicio button:hover{
+  transform: scale(1.09);
+  background: black;
+}
+
+
+#reiniciar{
+  border: 0;
+  color: white;
+  font-weight: bold;
+  background-color: blue;
+  padding: 10px;
+  margin-top: 1%;
+  margin-left: 4%;
+  border-radius: 0.5em;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+#reiniciar:hover{
+  transform: scale(1.09);
+}
+
+
+#letra{
+  margin-right: 5%;
+  border-radius: 0.7em;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  display: block;
+  padding: 1em;
+  width: 50px;
+  float: right;
+  outline: 0;
+  border: 5px solid blue;
+  font-style: 'Ubuntu', sans-serif;
+}
+
+
+
+#historial{
+  color: red;
+  margin-top: 10%;
+  letter-spacing: 10px;
+  font-size: 30px;
+  font-family: Inter;
+  text-align: center;
+  margin-left: 300px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+
+#resultado{
+  position: absolute;
+  text-align: center;
+  font-size: 60px;
+  color: blue;
+  margin-left: 40%;
+  margin-right: 20%;
+  margin-top:23%;
+  font-style: 'Ubuntu', sans-serif;
+  font-weight: bold;
+}
+
+
+.mensaje_perder{
+  color: red;
+  font-size: 40PX;
+  text-align: center;
+}
+
+
+@media (max-width: 500px){
+  
+  .inicio a{
+      font-size: 13px;
+  }
+  #reiniciar{
+      font-size: 13px;
+  }
+
+  #resultado{
+      margin-top: 300px;
+      font-size: 40px;
+  }
+  .mensaje_ganar{
+      font-size: 20PX;
+  }
+  
+  .mensaje_perder{
+      font-size: 20PX;
+  }
+  
+
+  .mensaje-correcto,
+  .mensaje-incorrecto{
+    font-size: 20px;
+    margin: 0;
+    text-align: center;
+  }
+
+
+  .buttons{
+    padding: 10px;
+    display: flex;
+    flex-direction: wrap;
+    margin: 10px;
+  }
+  .buttons button:hover{
+    background: black;
+  }
+  .buttons a:hover{
+    background-color: black;
+  }
+}
+

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <title>Juego Ahorcado</title>
+</head>
+<body>
+    
+
+    <div class="mensajes">
+        <h2 class="mensaje_ganar"></h2>
+        <h2 class="mensaje_perder"></h2>
+    </div>
+
+    <div class="inicio">
+        <button><a href="./index.html">REGRESAR</a></button>
+    </div>
+
+    
+    <button id="reiniciar">REINICIAR</button>
+    <input id="letra" type="text" placeholder="LETRA" maxlength="1"> 
+    
+    
+    <div  class="guiones" id="resultado"  style="text-align: left;"></div>
+    <div id="historial"></div>
+
+    <canvas  id="ahorcado" width="1200" height="200"></canvas>
+
+
+<script   id="canvas" type="text/javascript" src="./js/canvas.js"></script>
+<script type="text/javascript" src="./js/ahorcado.js"></script>
+
+
+
+</body>
+</html>
